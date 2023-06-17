@@ -63,6 +63,8 @@ function App() {
                 setUsernameReg(e.target.value);
                }} 
             />
+            <br></br>
+            <br></br>
             <label>Password</label>
             <input 
               type="text"
@@ -70,6 +72,8 @@ function App() {
                 setPasswordReg(e.target.value);
                }} 
             />
+            <br></br>
+            <br></br>
             <label>Email</label>
             <input 
               type="text" 
@@ -83,6 +87,9 @@ function App() {
             <h1>Login</h1>
             <label>Username</label>
             <input type="text" placeholder="Username..."/>
+            <br></br>
+            <br></br>
+            <label>Password</label>
             <input type="password" placeholder="Password..."/>
             <button>Login</button>
         </div>   
